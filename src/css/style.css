@@ -7,7 +7,9 @@
 
 body {
   background-color: black;
-  overflow-x: hidden; }
+  overflow-x: hidden;
+  z-index: -2;
+  position: relative; }
   body main {
     background-color: #ffffff;
     position: relative;
@@ -43,6 +45,7 @@ body {
           width: 576px;
           height: 755px;
           left: -10%;
+          bottom: -8%;
           border-radius: 0 0 500px 500px;
           -webkit-border-radius: 0 0 500px 500px;
           -moz-border-radius: 0 0 500px 500px;
@@ -289,7 +292,7 @@ body {
             padding: 0 14rem 0 0;
             line-height: 2rem; } }
   body .attribution {
-    background-color: #ffffff;
+    background-color: transparent;
     font-size: 0.6rem;
     text-align: center;
     width: 100%;
